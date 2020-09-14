@@ -1,0 +1,8 @@
+name: GravelPlugin
+version: @version@
+main: xyz.n7mn.dev.yululi.gravelplugin.GravelPlugin
+api-version: 1.16
+depend: [ Luckperms ]
+authors: [ n3m_ ]
+description: GravelPlugin
+website: https://github.com/kanasaki15
