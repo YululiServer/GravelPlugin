@@ -7,17 +7,12 @@ import org.bukkit.event.player.PlayerCommandPreprocessEvent;
 public class GravelPluginListener implements Listener {
 
     @EventHandler
-    public void ee(PlayerCommandPreprocessEvent e){
+    public void PlayerCommandPreprocessEvent(PlayerCommandPreprocessEvent e){
         if (e.getMessage().startsWith("/game-start")){
-
             if (e.getPlayer().hasPermission("gravel.op")){
-
-
 
                 e.setCancelled(true);
             }
-
-
         }
     }
 

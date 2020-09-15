@@ -7,7 +7,7 @@ public final class GravelPlugin extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-
+        getServer().getPluginManager().registerEvents(new GravelPluginListener(), this);
     }
 
     @Override
